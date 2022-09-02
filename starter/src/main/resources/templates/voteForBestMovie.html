@@ -1,0 +1,16 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <title>Vote For Best Movie</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+<form action="voteForBestMovie" method="GET">
+  <p>Movie Title: <input type="text" name="movieTitle" /></p>
+  <p><input type="submit" value="Submit" /></p>
+
+  <p th:text="'Your favorite movie is: ' + ${BestMovieVote}" />
+  <a href="/">Home</a>
+</form>
+</body>
+</html>
