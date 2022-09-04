@@ -5,12 +5,15 @@
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 </head>
 <body>
-<form action="voteForBestMovie" method="GET">
-  <p>Movie Title: <input type="text" name="movieTitle" /></p>
+<form action="voteForBestMovie" method="PUT">
+  <p> Your name: <input type="text" name="voterName"></p>
+  <select name="movieId">
+    <option value="0">Select Movie</option>
+    <option th:each="movie : ${movies}"  th:value ="${movie.id}"  th:text="${movie.title}"}> </option>
+  </select>
   <p><input type="submit" value="Submit" /></p>
-
-  <p th:text="'Your favorite movie is: ' + ${BestMovieVote}" />
-  <a href="/">Home</a>
 </form>
+<a href="/">Home</a>
+
 </body>
 </html>
