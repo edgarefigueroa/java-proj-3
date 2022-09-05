@@ -6,7 +6,7 @@
         <!-- JDBC Database connection settings -->
         <property name="connection.driver_class">org.postgresql.Driver</property>
         <!--        <property name="connection.url">jdbc:postgresql://HOST:PORT/DATABASE</property>-->
-        <property name="connection.url">jdbc:postgresql://ec2-44-193-178-122.compute-1.amazonaws.com</property>
+        <property name="connection.url">jdbc:postgresql://ec2-44-193-178-122.compute-1.amazonaws.com:5432/db2v382jqal3vq</property>
         <property name="connection.username">ffvlunyanfszeo</property>
         <property name="connection.password">07ef58758ac352abac8c0d28479631c0eb65dd07d02d14091170f0820c044eb3</property>
         <!-- JDBC connection pool settings ... using built-in test pool -->

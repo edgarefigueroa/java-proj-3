@@ -12,12 +12,12 @@ public class MovieApp {
                 new AnnotationConfigApplicationContext(MovieApp.class);
 
 // since we did not specify a bean id, the id will simply be the class name of the bean starting with a lower case).
-        BestMovieService bestMovieService = applicationContext.getBean("bestMovieService", BestMovieService.class);
-
-        Movie bestMovie = bestMovieService.getBestMovie();
-
-        System.out.println("Title: " + bestMovie.getTitle());
-        System.out.println("Maturity Rating: " + bestMovie.getMaturityRating());
-        System.out.println("Genre: " + bestMovie.getGenre());
+//        BestMovieService bestMovieService = applicationContext.getBean("bestMovieService", BestMovieService.class);
+//
+//        Movie bestMovie = bestMovieService.getBestMovie();
+//
+//        System.out.println("Title: " + bestMovie.getTitle());
+//        System.out.println("Maturity Rating: " + bestMovie.getMaturityRating());
+//        System.out.println("Genre: " + bestMovie.getGenre());
     }
 }

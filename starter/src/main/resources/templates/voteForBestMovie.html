@@ -1,19 +1,18 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
-  <title>Vote For Best Movie</title>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Vote For Best Movie</title>
 </head>
 <body>
 <form action="voteForBestMovie" method="PUT">
-  <p> Your name: <input type="text" name="voterName"></p>
-  <select name="movieId">
-    <option value="0">Select Movie</option>
-    <option th:each="movie : ${movies}"  th:value ="${movie.id}"  th:text="${movie.title}"}> </option>
-  </select>
-  <p><input type="submit" value="Submit" /></p>
+    <p>Your Name: <input type="text" name="voterName"></p>
+    <select name="movieId">
+        <option value="0">select movie</option>
+        <option th:each="movie : ${movies}" th:value="${movie.id}" th:text="${movie.title}"></option>
+    </select>
+    <p><input type="submit" value="Submit"></p>
 </form>
 <a href="/">Home</a>
-
 </body>
 </html>
