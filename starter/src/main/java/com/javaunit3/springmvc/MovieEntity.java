@@ -1,4 +1,4 @@
-package com.javaunit3.springmvc.models;
+package com.javaunit3.springmvc;
 
 import javax.persistence.*;
 import java.util.List;
@@ -50,33 +50,27 @@ public class MovieEntity
         this.id = id;
     }
 
-    public String getTitle()
-    {
+    public String getTitle() {
         return title;
     }
 
-    public void setTitle(String title)
-    {
+    public void setTitle(String title) {
         this.title = title;
     }
 
-    public String getMaturityRating()
-    {
+    public String getMaturityRating() {
         return maturityRating;
     }
 
-    public void setMaturityRating(String maturityRating)
-    {
+    public void setMaturityRating(String maturityRating) {
         this.maturityRating = maturityRating;
     }
 
-    public String getGenre()
-    {
+    public String getGenre() {
         return genre;
     }
 
-    public void setGenre(String genre)
-    {
+    public void setGenre(String genre) {
         this.genre = genre;
     }
 }

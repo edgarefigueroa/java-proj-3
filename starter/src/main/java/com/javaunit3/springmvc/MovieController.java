@@ -1,13 +1,9 @@
 package com.javaunit3.springmvc;
 
 
-import com.javaunit3.springmvc.models.MovieEntity;
-import com.javaunit3.springmvc.models.VoteEntity;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
-import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

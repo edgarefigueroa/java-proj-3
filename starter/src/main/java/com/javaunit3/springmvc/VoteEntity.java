@@ -1,4 +1,4 @@
-package com.javaunit3.springmvc.models;
+package com.javaunit3.springmvc;
 
 import org.hibernate.SessionFactory;
 
