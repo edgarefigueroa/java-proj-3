@@ -48,6 +48,6 @@ After you have created the new project, click on the name of the project so that
   * Replace PASSWORD with the Password info
 
 ## Project Usage
-Find the best Movie
-Vote for your favorite movie
-Add a movie
+- Find the best Movie
+- Vote for your favorite movie
+- Add a movie
