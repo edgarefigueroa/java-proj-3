@@ -36,6 +36,8 @@ After you have created the new project, click on the name of the project so that
    To see the credentials needed to connect to the Database click on the “Settings” tab and navigate to the “Database Credentials” section. 
    On the right hand side of the screen there is a button labeled “View Credentials” which drops down the section and shows the credentials.
 5. In the resources directory hibernate.cfg.xml change the following code into that file (the highlighted lines are important for the next bullet point)
+
+6. Note: hibernate.cfg.xml file should not be push to public and this is just an example setup.
 ![img.png](imagesME/img.png)
 * In Heroku Postgres, go to the settings and open the database credentials to find the following information and insert it into your xml file:
 
